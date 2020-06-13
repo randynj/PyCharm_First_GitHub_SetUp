@@ -1,0 +1,10 @@
+Starting log for test_google_search_pylenium
+timestamp (UTC): Sat Jun 13 21:27:00 2020
+pylog_level: INFO
+browserName: chrome, browserVersion: 83.0.4103.97, platformName: mac os x, session_id: 47d90fdd67c52b22fac36503f81144fd
+2020-06-13T21:27:04.482660 | [INFO]: py.maximize_window() - Maximize window
+2020-06-13T21:27:04.666178 | [STEP]: py.visit() - Visit URL: ``https://google.com``
+2020-06-13T21:27:06.235342 | [STEP]: py.get() - Find the element with css: ``[name='q']``
+2020-06-13T21:27:06.245688 |     [ACTION]: .type() - Type keys into this element
+2020-06-13T21:27:08.787849 |     [STEP]: .should().contain_title()
+2020-06-13T21:27:08.793712 | [STEP]: py.quit() - Quit Pylenium and close all windows from the browser
